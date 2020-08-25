@@ -67,10 +67,10 @@ The toolbar LED color code is shown bellow:
 
 | State    |  Color                       |  Description                                       |
 | -------- | :--------------------------: | -------------------------------------------------- |
-| Off      |  [[/images/led_off.png]]     |  None of the services are running.                 |
-| Starting |  [[/images/led_starting.png]]|  The services are being (re)started or (re)created |
-| Running  |  [[/images/led_running.png]] |  All the services in the stack are running         |
-| Warning  |  [[/images/led_warning.png]] |  At least one service in the stack is not running  |
+| Off      |  ![https://github.com/jpdias/docker-composer/blob/master/images/led_off.png]()     |  None of the services are running.                 |
+| Starting |  ![https://github.com/jpdias/docker-composer/blob/master/images/led_starting.png]()|  The services are being (re)started or (re)created |
+| Running  |  ![https://github.com/jpdias/docker-composer/blob/master/images/led_running.png]() |  All the services in the stack are running         |
+| Warning  |  ![https://github.com/jpdias/docker-composer/blob/master/images/led_warning.png]() |  At least one service in the stack is not running  |
 <p align="center">
   <b>Table 1:</b> Toolbar LED color code
 </p>
@@ -143,12 +143,12 @@ Relationships are represented as connections between artifacts:
 
 | Connection                       | Representation          
 | -------------------------------- |:--------------------------------: |
-| Depends on between services      | [[/images/depends_on.png]]        |
-| Links between services           | [[/images/links.png]]             |
-| Volume connection with service   | [[/images/volumeConnection.png]]  |
-| Network connection with service  | [[/images/networkConnection.png]] |
-| Config connection with service   | [[/images/configConnection.png]]  |
-| Secret connection with service   | [[/images/secretConnection.png]]  |
+| Depends on between services      | ![https://github.com/jpdias/docker-composer/blob/master/images/depends_on.png]()        |
+| Links between services           | ![https://github.com/jpdias/docker-composer/blob/master/images/links.png]()             |
+| Volume connection with service   | ![https://github.com/jpdias/docker-composer/blob/master/images/volumeConnection.png]()  |
+| Network connection with service  | ![https://github.com/jpdias/docker-composer/blob/master/images/networkConnection.png]() |
+| Config connection with service   | ![https://github.com/jpdias/docker-composer/blob/master/images/configConnection.png]()  |
+| Secret connection with service   | ![https://github.com/jpdias/docker-composer/blob/master/images/secretConnection.png]()  |
 <p align="center">
   <b>Table 2:</b> Connection types
 </p>
