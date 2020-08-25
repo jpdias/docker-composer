@@ -1,0 +1,27 @@
+version: '3.6'
+
+services:
+
+  web:
+    image: kubix20/webapp_postgres
+    ports:
+      - "4000:80"
+    depends_on:
+      - db
+    networks:
+      - my-net
+
+  db:
+    image: postgres:9.4
+    env_file: 
+      - ./postgres/credentials
+    networks:
+      - my-net
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
+
+networks:
+  my-net:
