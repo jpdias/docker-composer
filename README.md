@@ -13,6 +13,7 @@ At the moment, only version 3 of Docker Compose is supported.
 * List of [Features](#features) 
 * For information on how to get started refer to [Quick start](#quick-start).
 * For a detailed user manual refer to [How to use](#how-to-use).
+* [Publication](#citing-this-work)
 
 ## Abstract
 
@@ -189,11 +190,11 @@ Ctrl+Y - Redo
 
 Del - Delete selected artifact(s)
 
-## Creating a stack
+### Creating a stack
 
 In a typical workflow, you create a stack by following a similar rationale to that of writing a textual docker-compose.yml. Start by adding the artifacts that will make up the stack (usually, begin by adding the services either by selecting an image from the image palette or through the context menu). Then connect the artifacts as desired. Finally, edit the properties of each object accordingly. Once the stack is ready to deploy, you can run it locally (i.e. not Swarm) by clicking on the 'Start' button.
 
-### Citing this Work
+## Citing this Work
 
 If you find this code useful in your research, please consider citing:
 
