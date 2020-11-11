@@ -1,5 +1,8 @@
 # docker-composer
 
+[![DOI](https://zenodo.org/badge/doi/10.1145/3417990.3420194.svg)](http://dx.doi.org/10.1145/3417990.3420194)
+[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Docker Composer, a visual editor for Docker Compose.
 
 The main aim of this project is to provide a visual alternative to edit and visualize Docker Compose stacks. The tool was developed as a prototype/POC for a master's degree in software engineering dissertation at FEUP (Faculdade de Engenharia da Universidade do Porto). At the current stage the project is purely **experimental**.
