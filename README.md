@@ -9,10 +9,14 @@ The technologies used are [mxGraph](https://github.com/jgraph/mxgraph) for the g
 At the moment, only version 3 of Docker Compose is supported.
 
 ## Contents
-
-* List of [Features](features) 
+* [Abstract](#abstract)
+* List of [Features](#features) 
 * For information on how to get started refer to [Quick start](#quick-start).
 * For a detailed user manual refer to [How to use](#how-to-use).
+
+## Abstract
+
+> Infrastructure-as-Code tools, such as Docker and Docker Compose, play a crucial role in the development and orchestration of cloud-native and at-scale software. However, as IaC relies mostly on the development of text-only specifications, these are prone to misconfigurations and hard to debug. Several works suggest the use of models as a way to abstract their complexity, and some point to the use of visual metaphors. Yet, few empirical studies exist in this domain. We propose a visual programming notation and environment for specifying Docker Compose configurations and proceed to empirically validate its merits when compared with the standard text-only specification. The goal of this work is to produce evidence of the impact that visual approaches may have on the development of IaC. We observe that the use of our solution reduced the development time and error proneness, primarily for configurations definition activities. We also observed a preference for the approach in terms of ease of use, a positive sentiment of its usefulness and intention to use.
 
 ## Features
 
@@ -188,3 +192,22 @@ Del - Delete selected artifact(s)
 ## Creating a stack
 
 In a typical workflow, you create a stack by following a similar rationale to that of writing a textual docker-compose.yml. Start by adding the artifacts that will make up the stack (usually, begin by adding the services either by selecting an image from the image palette or through the context menu). Then connect the artifacts as desired. Finally, edit the properties of each object accordingly. Once the stack is ready to deploy, you can run it locally (i.e. not Swarm) by clicking on the 'Start' button.
+
+### Citing this Work
+
+If you find this code useful in your research, please consider citing:
+
+    @inproceedings{10.1145/3417990.3420194,
+      author = {Piedade, Bruno and Dias, Jo\~{a}o Pedro and Correia, Filipe F.},
+      title = {An Empirical Study on Visual Programming Docker Compose Configurations},
+      year = {2020},
+      isbn = {9781450381352},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3417990.3420194},
+      doi = {10.1145/3417990.3420194},
+      booktitle = {Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings},
+      articleno = {60},
+      numpages = {10},
+      series = {MODELS '20}
+    }
